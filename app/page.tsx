@@ -44,6 +44,12 @@ export default async function Home() {
                   {post.smallDescription}
                 </p>
 
+                <div className="flex justify-between gap-3 items-center mt-7">
+                  <Button asChild className="w-full">
+                    <Link href={`/blog/${post.currentSlug}`}>Read More</Link>
+                  </Button>
+                  </div>
+
               </CardContent>
             </Card>
           );

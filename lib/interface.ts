@@ -5,3 +5,10 @@ export interface simpleBlogCard {
   titleImage: any;
   _id: string;
 }
+
+export interface fullBlog {
+  currentSlug: string;
+  title: string;
+  content: any;
+  titleImage: any;
+}
